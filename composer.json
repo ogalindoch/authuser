@@ -1,0 +1,22 @@
+{
+	"name"	: "euroglas/authuser",
+	"type"	: "library",
+	"description"	: "Modulo de autenticación usando nombre de usuario y contraseña",
+	"keywords"	: ["auth","rest","sesodi"],
+	"homepage":	"http://sesodi.com",
+	"license":	"agpl-3.0",
+	"authors": [{
+			"name": "Octavio Galindo",
+			"email": "Octavio@sesodi.com",
+			"role": "Developer"
+	}],
+    "require": {
+		"emarref/jwt": "^1.0.3",
+		"euroglas/dbaccess": "@dev"
+    },
+	"autoload": {
+		"psr-4": {
+			"euroglas\\authuser\\": "src/"
+		}
+	}
+}
